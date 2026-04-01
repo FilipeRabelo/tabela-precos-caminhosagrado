@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Velas</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2,
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* RESPONSIVO */
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+      border-radius: 20px;
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      overflow: hidden;
+      min-width: 700px;
+      /* garante scroll no celular */
+    }
+
+    thead {
+      background-color: #ffff00;
+      color: #000;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    td:nth-child(5),
+    td:nth-child(6) {
+      text-align: left;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:hover {
+      background-color: #eee;
+    }
+
+    /* Mensagem final */
+    .info {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .info small {
+      display: block;
+      color: #666;
+      font-size: 14px;
+    }
+
+    .info small:last-child {
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2>Velas Caminho Sagrado</h2>
+    <h3>Tabela de Valores</h3>
+
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Tamanho/Peso</th>
+            <th>Cor</th>
+            <th>Quantidade</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>01</td>
+            <td>7 Dias</td>
+            <td>12cm / 210g</td>
+            <td>Branca</td>
+            <td>Unidade<br>Kit 10<br>Cx 100</td>
+            <td>R$ 7,45<br>R$ 69,90<br>R$ 649,90</td>
+          </tr>
+
+          <tr>
+            <td>02</td>
+            <td>7 Dias</td>
+            <td>15cm / 260g</td>
+            <td>Branca</td>
+            <td>Unidade<br>Kit 10<br>Cx 100</td>
+            <td>R$ 8,45<br>R$ 79,90<br>R$ 749,90</td>
+          </tr>
+
+          <tr style="background: linear-gradient(135deg,#D5F5E3,#D6EAF8,#E8DAEF,#FADBD8,#FCF3CF,#D4EFDF,#EBF5FB);">
+            <td>03</td>
+            <td>7 Dias</td>
+            <td>15cm / 260g</td>
+            <td>Colorida</td>
+            <td>Unidade<br>Kit 10<br>Cx 100</td>
+            <td>R$ 9,90<br>R$ 94,90<br>R$ 899,90</td>
+          </tr>
+
+          <tr style="background: linear-gradient(135deg,#D5F5E3,#D6EAF8,#E8DAEF,#FADBD8,#FCF3CF,#D4EFDF,#EBF5FB);">
+            <td>04</td>
+            <td>7 Dias</td>
+            <td>18cm / 310g</td>
+            <td>7 Linhas</td>
+            <td>Unidade<br>Kit 10</td>
+            <td>R$ 12,90<br>R$ 114,90</td>
+          </tr>
+
+          <tr>
+            <td>05</td>
+            <td>Palito n.4</td>
+            <td>14cm / 22g</td>
+            <td>Branca</td>
+            <td>Kit 25<br>Kit 50<br>Cx 100 <br>Cx 300</td>
+            <td>R$ 16,90<br>R$ 32,45<br>R$ 65,90<br>R$ 192,90</td>
+          </tr>
+
+          <tr>
+            <td>06</td>
+            <td>Palito n.6</td>
+            <td>16cm / 27g</td>
+            <td>Branca</td>
+            <td>Kit 25<br>Kit 50<br>Cx 100 <br>Cx 300</td>
+            <td>R$ 19,45<br>R$ 38,90<br>R$ 77,00<br>R$ 229,45</td>
+          </tr>
+
+          <tr>
+            <td>07</td>
+            <td>Palito n.8</td>
+            <td>18cm / 32g</td>
+            <td>Branca</td>
+            <td>Kit 25<br>Kit 50<br>Cx 100 <br>Cx 300</td>
+            <td>R$ 23,90<br>R$ 47,50<br>R$ 94,90<br>R$ 284,45</td>
+          </tr>
+
+          <tr style="background: linear-gradient(135deg,#D5F5E3,#D6EAF8,#E8DAEF,#FADBD8,#FCF3CF,#D4EFDF,#EBF5FB);">
+            <td>08</td>
+            <td>Palito n.4</td>
+            <td>14cm / 22g</td>
+            <td>Colorida</td>
+            <td>Kit 25<br>Kit 50<br>Cx 100</td>
+            <td>R$ 22,50<br>R$ 44,90<br>R$ 89,90</td>
+          </tr>
+
+          <tr style="background: linear-gradient(135deg,#D5F5E3,#D6EAF8,#E8DAEF,#FADBD8,#FCF3CF,#D4EFDF,#EBF5FB);">
+            <td>09</td>
+            <td>Palito n.6</td>
+            <td>16cm / 27g</td>
+            <td>Colorida</td>
+            <td>Kit 25<br>Kit 50<br>Cx 100</td>
+            <td>R$ 27,90<br>R$ 54,90<br>R$ 99,90</td>
+          </tr>
+
+          <tr style="background: linear-gradient(135deg,#D5F5E3,#D6EAF8,#E8DAEF,#FADBD8,#FCF3CF,#D4EFDF,#EBF5FB);">
+            <td>10</td>
+            <td>Palito n.6</td>
+            <td>16cm / 27g</td>
+            <td>Bi-Color</td>
+            <td>Kit 25<br>Kit 50<br>Cx 100</td>
+            <td>R$ 29,90<br>R$ 58,90<br>R$ 104,90</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class="info">
+      <small>Velas premium com queima uniforme, maior durabilidade e acabamento superior.</small>
+      <small>Quanto maior o kit, menor o valor por unidade.</small>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
